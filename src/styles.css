@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+}
+
+.youtubeContainer {
+  max-width: 480px;
+}
+
+.youtubeContainer > div {
+  position: relative;
+  padding-bottom: 75%;
+  height: 0px;
+}
+
+.youtubeContainer iframe {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+}
